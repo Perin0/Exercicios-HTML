@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex.2: Teste de construção de tabelas (estilizando com CSS)</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td{
+            border: px solid #dddddd;
+            text-align: left;
+            padding: 7.5px;
+        }
+        th{
+            border: 2px solid #0b0a0a;
+            text-align: left;
+            padding: 8px;
+            }
+        tr:nth-child(even){
+            background-color:#dddddd;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h2>Tabela em HTML (com estilização em CSS)</h2>
+        <table border="3">
+            <tr>
+                <th>Time de Futebol</th>
+                <th>Fundado</th>
+                <th>País</th>
+            </tr>
+            <tr>
+                <td>Corinthians</td>  
+                <td>1910</td>
+                <td>Brasil</td>
+            </tr>
+            <tr>
+                <td>Barcelona</td>
+                <td>1899</td>
+                <td>Espanha</td>
+            </tr>
+            <tr>
+                <td>Bayern München</td>
+                <td>1900</td>
+                <td>Alemanha</td>
+            </tr>
+            <tr>
+                <td>Inter Miami</td>
+                <td>2018</td>
+                <td>EUA</td>
+            </tr>
+            <tr>
+                <td>Milan</td>
+                <td>1899</td>
+                <td>Itália</td>
+            </tr>
+            <tr>
+                <td>Shktar Donetsk</td>
+                <td>1936</td>
+                <td>Ucrânia</td>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>
